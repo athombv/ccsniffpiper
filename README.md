@@ -38,7 +38,7 @@ To see further information, run the help command:
 `python ccsniffpiper.py -h`
 
 To start Wireshark and start sniffing run the command:
-`./pipe2wireshark.sh`
+`./pipe2wireshark.sh 11`
 
 
 Run Wireshark
