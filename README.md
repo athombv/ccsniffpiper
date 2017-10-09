@@ -28,11 +28,17 @@ Run ccsniffpiper
 ----------------
 **ccsniffpiper**'s main role it to read from the CC2531 USB packet sniffer and pipe the packets in PCAP format to a named pipe (by default "/tmp/ccsniffpiper").
 
+Note: make sure to have pyusb installed:
+`pip install pyusb`
+
 To get this default behaviour, just run the command:
 `python ccsniffpiper.py`
 
 To see further information, run the help command:
 `python ccsniffpiper.py -h`
+
+To start Wireshark and start sniffing run the command:
+`./pipe2wireshark.sh`
 
 
 Run Wireshark
